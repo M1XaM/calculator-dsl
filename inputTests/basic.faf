@@ -5,11 +5,11 @@ float b = 2.5
 a = a / b
 show a 
 
-b = 14 / 7 * 3 + 1 * 4 + 5
+b = 14 / 7 * 3 +
 show b
 
 show 10 / 3 * 2 + 4
 
 # Implicit conversion
-int pi = 3.1428
+int pi = 3.8428
 show pi

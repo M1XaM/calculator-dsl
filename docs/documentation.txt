@@ -5,6 +5,7 @@ Each statement must begin with new line
 Math expressions are made from operators +, -, /, * and variables, integers, float numbers
 Each element from the math expression must be separated by a space
 Comments start with # and free lines are acceptable
+Here work implicit conversion of float values to int
 Equal sign have two roles: assign values for new or existing variables; check equality of two values in if statements
 
 

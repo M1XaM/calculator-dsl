@@ -14,12 +14,9 @@ Node* parser(vector<Token>& lineObject);
 void interpreter(Node* root);
 void lastTest();
 
-int main(){
-    // string filename;
-    // cout << "Enter the name of exisiting file: ";
-    // cin >> filename;
-    // ifstream inputFile(filename);
-    ifstream inputFile("inputTests/test.faf"); 
+int main(int argc, char* argv[]){
+    string filename = (argc > 1) ? argv[1] : "inputTests/basic.faf";
+    ifstream inputFile(filename); 
     if (!inputFile.is_open()){
         cout << "Error opening the file." << endl;
         return 1;
